@@ -1,0 +1,45 @@
+.form-builder-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.form-builder {
+  display: flex;
+  height: calc(100vh - 64px); /* Subtract header height */
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+}
+
+.canvas-area {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  min-width: 0; /* Allow flex items to shrink */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .form-builder {
+    flex-direction: column;
+    height: auto;
+    min-height: calc(100vh - 64px);
+  }
+  
+  .canvas-area {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-builder {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  
+  .canvas-area {
+    gap: 0.5rem;
+  }
+}
