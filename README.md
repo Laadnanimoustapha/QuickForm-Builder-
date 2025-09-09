@@ -2,6 +2,8 @@
 
 > **A powerful, intuitive drag-and-drop form builder for React applications**
 
+[![Support Palestine](https://img.shields.io/badge/Support-Palestine-000000?labelColor=007A3D&color=CE1126)](#support-palestine)
+[![Free Palestine](https://img.shields.io/badge/Free-Palestine-CE1126?labelColor=000000&color=007A3D)](#support-palestine)
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
@@ -428,5 +430,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: support@quickform-builder.com
 
 ---
+
 
 **Made with ❤️ by the QuickForm Builder Team**
